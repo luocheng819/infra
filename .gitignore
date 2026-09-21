@@ -47,3 +47,6 @@ backend/data/
 # Playwright
 test-results/
 playwright-report/
+
+# TS 增量构建缓存
+*.tsbuildinfo
