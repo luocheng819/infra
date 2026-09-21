@@ -17,6 +17,6 @@
 ## 开始使用
 
 ```bash
-git clone git@github.com:<your-account>/infra.git
+gh repo clone luocheng819/infra
 cd infra
 ```
