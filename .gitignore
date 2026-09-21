@@ -1,0 +1,42 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# 编辑器 / IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# 环境与密钥（切勿提交）
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# 日志与构建产物
+*.log
+logs/
+dist/
+build/
+target/
+
+# 依赖目录
+node_modules/
+vendor/
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# Terraform / IaC
+.terraform/
+*.tfstate
+*.tfstate.*
+.terraform.lock.hcl
+
+# 本地临时文件
+tmp/
+.cache/
