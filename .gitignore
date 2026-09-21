@@ -40,3 +40,10 @@ __pycache__/
 # 本地临时文件
 tmp/
 .cache/
+
+# 平台运行时数据（SQLite、模型目录、实例日志）
+backend/data/
+
+# Playwright
+test-results/
+playwright-report/
